@@ -8,6 +8,14 @@ img {width: 100%;
 *Dark Turquoise - #006494
 *Light Blue- #e8f1f2
 
+@media 
+
+
+
+
+
+
+
 #headshot {
     width: 100%;
 
@@ -36,8 +44,26 @@ h1 {
     text-transform:uppercase;
     color: #13293d;
     
+    #navigation {
+         background-color: #006494
     
-        
-        
+    }
     
-}
+    .nav {
+    justify-content: center;
+        
+    } 
+    
+    .nav a{
+        color: #38b6ff    
+    }
+        
+    .nav a hover{
+        font-weight: bold
+        background-color: #006494
+        
+    }
+    
+    
+    @media (min-width:576px)
+        h1{font-size}
