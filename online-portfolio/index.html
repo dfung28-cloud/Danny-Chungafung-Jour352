@@ -7,22 +7,40 @@
 
         <title>Danny Chung-A-Fung: Portfolio</title>
 
+        <!--This is my Bootstrap code-->
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
             rel="stylesheet"
             integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
             crossorigin="anonymous" />
 
+        <!--This is my Google font-->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
             href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
             rel="stylesheet" />
 
+        <!--This connects my HTML and CSS files-->
         <link href="style.css" rel="stylesheet" />
     </head>
 
     <body>
+        <div class="container-fluid" id="navigation">
+            <div class="row">
+                <div class="col-sm-4">
+                    <p class="nav"><a href="#experience">Experience</a></p>
+                </div>
+                
+                <div class="col-sm-4">
+                    <p class="nav"><a href="#skills">Skills</a></p>
+                </div>
+                
+                <div class="col-sm-4">
+                    <p class="nav"><a href="#education">Education</a></p>  
+                </div>
+        </div>
+
         <div class="container-fluid" id="topper">
             <div class="row">
                 <div class="col-sm-7">
@@ -35,25 +53,74 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid" id="navigation">
-            <div class="row">
-                <div class="col-sm-4"><p> class="nav"><a href="experience"</p></div>
-                <div class="col-sm-4"><p>Skills</p></div>
-                <div class="col-sm-4"><p>Education</p></div>
-            </div>
-            <div class="col"></div>
-        </div>
 
         <div class="container-fluid">
             <div class="row">
-                <div class="col"><h3>Experience</h3></div>
-                
-                
-                
-                
-                
-                
+                <div class="col"><h3 id="experience">Experience</h3></div>
+            </div>
+            <div class="row job">
+                <div class="col-sm-3">
+                    <h4>Job Title</h4>
+                    <h5>Company</h5>
+                    <h6>Date-Date</h6>
+                </div>
+                <div class="col-sm-9"><p>Description of my job.</p></div>
+            </div>
+            <div class="row job">
+                <div class="col-sm-3">
+                    <h4>Job Title</h4>
+                    <h5>Company</h5>
+                    <h6>Date-Date</h6>
+                </div>
+                <div class="col-sm-9"><p>Description of my job.</p></div>
+            </div>
+            
+            
+            <div class="row">
+                <div class="col"><h3 id="skills">Skills</h3></div>
+            </div>
+            
+            
+            
+            
+        </div>
+            
+            
+            <div class="container-fluid">
+            <div class="row">
+                <div class="col"><h3 id="skills">Skills</h3></div>
+            </div>
+            <div class="row job">
+                <div class="col-sm-3">
+                    <h4>Job Title</h4>
+                    <h5>Company</h5>
+                    <h6>Date-Date</h6>
+                </div>
+                <div class="col-sm-9"><p>Description of my job.</p></div>
+            </div>
+            <div class="row job">
+                <div class="col-sm-3">
+                    <h4>Job Title</h4>
+                    <h5>Company</h5>
+                    <h6>Date-Date</h6>
+                </div>
+                <div class="col-sm-9"><p>Description of my job.</p></div>
             </div>
         </div>
+            
+            <div class="container-fluid">
+            <div class="row">
+                <div class="col"><h3 id="education">Education</h3></div>
+            </div>
+            <div class="row job">
+                <div class="col-sm-3">
+                    <h4>University of Maryland, College Park</h4>
+                    <h5>B.A, Journalism</h5>
+                    <h6>Expected graduation: May 2028</h6>
+                </div>
+            </div>
+        </div>
+            
+            
     </body>
 </html>
