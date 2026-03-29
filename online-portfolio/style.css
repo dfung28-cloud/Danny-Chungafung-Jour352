@@ -1,4 +1,5 @@
-img {width: 100%;
+img {
+    width: 100%;
 }
 
 /*This is a comment*/
@@ -17,19 +18,16 @@ img {width: 100%;
     #body {
         background-color: #e8f1f2;
     }
-    
-    
-    
-#headshot {
-    width: 100%;
-    border-radius: 45px;
-    border: 8px; 
-}
 
-    
-     h1 {
+    #headshot {
+        width: 100%;
+        border-radius: 45px;
+        border: 8px;
+    }
+
+    h1 {
         font-family: "Merriweather", serif;
-        letter-spacing: normal
+        letter-spacing: normal;
         font-weight: bold;
         text-transform: uppercase;
         color: #13293d;
@@ -37,53 +35,57 @@ img {width: 100%;
         font-size: 30px;
     }
 
-    
-    
-    
     button {
-        border-radius: 45px;
-border: none;
-        width: 100px;
+        background-color: #006494;
+        color: #ffff;
+        width: 174px;
+        height: 48px;
+        font-size: 144%;
     }
-    
+
+    button:hover {
+        background-color: #13293d;
+    }
+
     .job {
         margin-bottom: 30px;
         padding-bottom: 20px;
-        border-bottom: 1px solid blue; 
-        
+        border-bottom: 1px solid blue;
     }
-    
+
     .nav {
         justify-content: center;
+        background-color: #006494;
+        text-align: center;
+        color: #e43f6f;
     }
-     
-    
-    .nav a{
-        color: #38b6ff    
+
+    .nav a {
+        color: #ffff;
     }
-        
+
     .nav a:hover {
         font-weight: bold;
-        
+        background-color: #13293d;
     }
-    
+
     /*This is my next media query. It includes all the ADJUSTMENTS I want to make to my CSS rules for any screens that are 576px wide or bigger*/
-    
 
-    @media (min-width:576px) {
-        h1{
+    @media (min-width: 576px) {
+        h1 {
             font-size: 80px;
-    }
-        
-     button {
-        width: 200px;
-    }
-    
-/*This is my next media query. It includes all the ADJUSTMENTS I want to make to my CSS rules for any screens that are 768px wide or bigger*/
+        }
 
-@media (min-width: 768px) {
-    h1 {
-        font-size: 100px;
+        button {
+            width: 200px;
+        }
+
+        /*This is my next media query. It includes all the ADJUSTMENTS I want to make to my CSS rules for any screens that are 768px wide or bigger*/
+
+        @media (min-width: 768px) {
+            h1 {
+                font-size: 100px;
+            }
+        }
     }
 }
-    }
