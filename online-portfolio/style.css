@@ -3,16 +3,10 @@ img {width: 100%;
 
 /*This is a comment*/
 
-*/Color Pallette*/
-*Dark Blue - #13293d
-*Dark Turquoise - #006494
-*Light Blue- #e8f1f2
-
-
-
-body {
-    background-color: #e8f1f2
-}
+/*Color Pallette*/
+/*Dark Blue - #13293d
+/*Dark Turquoise - #006494
+/*Light Blue- #e8f1f2
 
 
 /*This is my first media query. It is my default media query. It includes all CSS rules that I want to apply to every screen that views my project, no matter the size*/
@@ -20,31 +14,42 @@ body {
     #topper {
         background-color: #e8f1f2;
     }
+    #body {
+        background-color: #e8f1f2;
+    }
+    
+    
     
 #headshot {
-    width: 100%
-    border-radius
-    border: 8px 
+    width: 100%;
+    border-radius: 45px;
+    border: 8px; 
 }
 
+    
+     h1 {
+        font-family: "Merriweather", serif;
+        letter-spacing: normal
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #13293d;
+        padding: 10px 0px 0px 20px;
+        font-size: 30px;
+    }
 
-h1 {  
-    font-family: "Merriweather", serif;
-    letter-spacing:normal
-    font-weight:bold;
-    text-transform:uppercase;
-    color: #13293d;
+    
+    
     
     button {
         border-radius: 45px;
 border: none;
-        width: 100px
+        width: 100px;
     }
     
     .job {
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         padding-bottom: 20px;
-        border-bottom: 3px solid blue;
+        border-bottom: 1px solid blue; 
         
     }
     
@@ -57,9 +62,8 @@ border: none;
         color: #38b6ff    
     }
         
-    .nav a hover{
-        font-weight: bold
-        background-color: #006494
+    .nav a:hover {
+        font-weight: bold;
         
     }
     
