@@ -11,96 +11,85 @@ img {
 
 
 /*This is my first media query. It is my default media query. It includes all CSS rules that I want to apply to every screen that views my project, no matter the size*/
-@media screen
-    #topper {
-        background-color: #e8f1f2;
-    }
-    #body {
-        background-color: #e8f1f2;
-    }
+@media screen {
+}
+#topper {
+    background-color: #e8f1f2;
+    margin-top: 20px;
+}
 
-    #headshot {
-        width: 90%;
-        border-radius: 45px;
-        border: 8px;
-        margin-top: 20px;
-    }
+#body {
+    background-color: #e8f1f2;
+}
 
+#headshot {
+    width: 90%;
+    border-radius: 45px;
+    border: 8px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-family: "Merriweather", serif;
+    letter-spacing: 0.6px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #13293d;
+    padding: 10px 0px 0px 20px;
+    font-size: 30px;
+}
+
+button {
+    background-color: #006494;
+    color: #ffff;
+    width: 174px;
+    height: 48px;
+    font-size: 144%;
+}
+
+button:hover {
+    background-color: #13293d;
+}
+
+.job {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid blue;
+}
+
+.nav {
+    justify-content: center;
+    background-color: #e8f1f2;
+    text-align: center;
+    font-family: "Merriweather";
+    margin-top: 20px;
+}
+
+.nav a {
+    color: #080808;
+    font-size: 25px;
+}
+
+.nav a:hover {
+    font-weight: bold;
+    background-color: #59b0ff;
+}
+
+@media (min-width: 576px) {
     h1 {
-        font-family: "Merriweather", serif;
-        letter-spacing: normal;
-        font-weight: bold;
-        text-transform: uppercase;
-        color: #13293d;
-        padding: 10px 0px 0px 20px;
-        font-size: 30px;
+        font-size: 47px;
     }
-
     button {
-        background-color: #006494;
-        color: #ffff;
-        width: 174px;
-        height: 48px;
-        font-size: 144%;
-    }
-
-    button:hover {
-        background-color: #13293d;
-    }
-
-    .job {
-        margin-top: 20px;
-        margin-bottom: 30px;
-        padding-bottom: 20px;
-        border-bottom: 1px solid blue;
-    }
-   
-        
-.experience {
-     background-color: #e8f1f2;
-    
-    
-}
-
-
-    .nav {
-        justify-content: center;
-        background-color: #006494;
-        text-align: center;
-        color: #e43f6f;
-        
-    }
-    
-    .nav a {
-        color: #ffff;
-    }
-
-    .nav a:hover {
-        font-weight: bold;
-        background-color: #59b0ff;
-    }
-
-    /*This is my next media query. It includes all the ADJUSTMENTS I want to make to my CSS rules for any screens that are 576px wide or bigger*/
-
-    @media (min-width: 576px) {
-        h1 {
-            font-size: 80px;
-        }
-
-        button {
-            width: 200px;
-        }
-
-        /*This is my next media query. It includes all the ADJUSTMENTS I want to make to my CSS rules for any screens that are 768px wide or bigger*/
-
-        @media (min-width: 768px) {
-            h1 {
-                font-size: 100px;
-            }
-            
+        width: 141px;
     }
 }
 
-#button a {
-    color: #e43f6f;
-    text-decoration: none;
+@media (min-width: 768px) {
+    h1 {
+        font-size: 62px;
+    }
+    button {
+        width: 160px;
+    }
+}
