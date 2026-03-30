@@ -1,5 +1,5 @@
 img {
-    width: 100%;
+    width: 90%;
 }
 
 /*This is a comment*/
@@ -11,7 +11,7 @@ img {
 
 
 /*This is my first media query. It is my default media query. It includes all CSS rules that I want to apply to every screen that views my project, no matter the size*/
-@media screen {
+@media screen
     #topper {
         background-color: #e8f1f2;
     }
@@ -20,9 +20,10 @@ img {
     }
 
     #headshot {
-        width: 100%;
+        width: 90%;
         border-radius: 45px;
         border: 8px;
+        margin-top: 20px;
     }
 
     h1 {
@@ -48,25 +49,35 @@ img {
     }
 
     .job {
+        margin-top: 20px;
         margin-bottom: 30px;
         padding-bottom: 20px;
         border-bottom: 1px solid blue;
     }
+   
+        
+.experience {
+     background-color: #e8f1f2;
+    
+    
+}
+
 
     .nav {
         justify-content: center;
         background-color: #006494;
         text-align: center;
         color: #e43f6f;
+        
     }
-
+    
     .nav a {
         color: #ffff;
     }
 
     .nav a:hover {
         font-weight: bold;
-        background-color: #13293d;
+        background-color: #59b0ff;
     }
 
     /*This is my next media query. It includes all the ADJUSTMENTS I want to make to my CSS rules for any screens that are 576px wide or bigger*/
@@ -86,6 +97,10 @@ img {
             h1 {
                 font-size: 100px;
             }
-        }
+            
     }
 }
+
+#button a {
+    color: #e43f6f;
+    text-decoration: none;
