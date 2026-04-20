@@ -1,0 +1,45 @@
+/*
+ Colors
+Dark Brown: #5b3000
+Gray Brown: #66462c
+Silver brown-ish: #726953
+#76877d
+Gray Azure: #82a6b1
+
+*/
+
+@media screen {
+    h1 {
+        font-family: "Black Ops One", system-ui;
+        font-size: 30px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .caption {
+        color: red;
+    }
+
+    .credit {
+        color: brown;
+    }
+}
+
+@media (min-width: 576px) {
+    h1 {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 65px;
+    }
+}
+@media (min-width: 992px) {
+    h1 {
+        font-size: 90px;
+    }
+}
