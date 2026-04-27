@@ -14,6 +14,21 @@ Gray Azure: #82a6b1
         font-size: 30px;
     }
 
+body {
+    background-color: #e8f1f2;
+
+}
+    
+
+    .flourish-embed flourish-chart {
+        size: 100px;
+        
+    }
+    
+    
+    
+    
+    
     img {
         width: 100%;
     }
@@ -25,6 +40,163 @@ Gray Azure: #82a6b1
     .credit {
         color: brown;
     }
+    
+    .para1 {
+        font-family: Inter; 
+    }
+    
+    .para2 {
+        font-family: Inter; 
+    }
+    
+    
+    .para3 {
+        font-family: Inter; 
+    }
+    
+    
+    .para4 {
+        font-family: Inter; 
+    }
+    
+    .para5 {
+        font-family: Inter; 
+    }
+    
+    .para6 {
+        font-family: Inter; 
+    }
+    
+    .para7 {
+        font-family: Inter; 
+    }
+    
+     .para8 {
+        font-family: Inter;
+        color: hotpink;
+        font-weight: bold;
+    }
+    
+    .para9 {
+        font-family: Inter; 
+    }
+    
+     .para10 {
+        font-family: Inter; 
+    }
+    
+    
+     .para11 {
+        font-family: Inter; 
+    }
+    
+     .para12 {
+        font-family: Inter; 
+    }
+    
+     .para13 {
+        font-family: Inter; 
+    }
+    
+     .para14 {
+        font-family: Inter; 
+    }
+    
+     .para15 {
+        font-family: Inter; 
+    }
+    
+    
+     .para16 {
+        font-family: Inter; 
+    }
+    
+    
+     .para17{
+        font-family: Inter; 
+    }
+    
+     .para18{
+        font-family: Inter; 
+    }
+    
+    
+     .para19 {
+        font-family: Inter; 
+    }
+    
+     .para20 {
+        font-family: Inter; 
+    }
+    
+     .para21 {
+        font-family: Inter; 
+    }
+    
+     .para22 {
+        font-family: Inter; 
+    }
+    
+    
+     .para23 {
+        font-family: Inter; 
+    }
+    
+    
+     .para24 {
+        font-family: Inter; 
+    }
+    
+    
+     .para25 {
+        font-family: Inter; 
+    }
+    
+    
+     .para26 {
+        font-family: Inter; 
+    }
+    
+     .para27 {
+        font-family: Inter; 
+    }
+    
+     .para28 {
+        font-family: Inter; 
+    }
+    
+    
+     .para29 {
+        font-family: Inter; 
+    }
+    
+     .para30 {
+        font-family: Inter; 
+    }
+    
+    
+     .para31 {
+        font-family: Inter; 
+    }
+    .para33 {
+        font-family: Inter; 
+    }
+    
+    .para34 {
+        font-family: Inter; 
+    }
+    
+    
+    .para32 {
+        font-family: Inter;
+        color: Red;
+        font-weight: bold;
+
+    
+    
+    
+    
+    
 }
 
 @media (min-width: 576px) {
